@@ -6,17 +6,20 @@ Before getting started, make sure to obtain the necessary configuration data fro
 
 ```javascript
 const firebaseConfig = {
-  apiKey: "API_KEY",
-  authDomain: "authDomain",
-  projectId: "form-data",
-  storageBucket: "form-data.appspot.com",
-  messagingSenderId: "messagingSenderId",
-  appId: "appId",
-  measurementId: "measurementId",
+  apiKey: "AIzaSyDcUUnQnvxT_H8MpdMYAIFdVwTh_iWxY1I",
+  authDomain: "form-data-244a1.firebaseapp.com",
+  projectId: "form-data-244a1",
+  storageBucket: "form-data-244a1.appspot.com",
+  messagingSenderId: "136342035976",
+  appId: "1:136342035976:web:284d21cb33b04d090e7bbd",
+  measurementId: "G-KKPH5R63SE",
 };
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
+
+// Initialize Cloud Firestore and get a reference to the service
+const db = firebase.firestore();
 ```
 
 ## Firestore Initialization
