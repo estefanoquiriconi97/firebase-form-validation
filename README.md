@@ -1,5 +1,7 @@
 # Form Validation with Firebase
 
+You can try the application at the following link: <a href="https://kiricode-form-validation.netlify.app/" target="_blank">Form Validation</a>
+
 ## Firebase Configuration
 
 Before getting started, make sure to obtain the necessary configuration data from Firebase. You should have a Firebase account and a configured project. Then, replace the values of `API_KEY`, `authDomain`, `projectId`, `storageBucket`, `messagingSenderId`, `appId`, and `measurementId` in the `firebaseConfig` object with the corresponding values provided by Firebase.
